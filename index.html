@@ -689,24 +689,28 @@
                <div class="col-md-8">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                     <script type="text/javascript">var submitted=false;</script>
+                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                              onload="if(submitted)  {window.location='sendua';}"></iframe>
+                     <form role="form" id="contactform" class="row" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdBnDOAmSr7QjZml8V66CVQqTNOK-4zjZOIu1pqY15oVANjVg/formResponse"
+                           method="post" target="hidden_iframe" onsubmit="submitted=true;">
                         <fieldset class="row-fluid">
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="first_name" id="first_name" class="form-control" placeholder="Имя">
+                              <input type="text" name="entry.1845842829" id="first_name" class="form-control" placeholder="Имя">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Фамилия">
+                              <input type="text" name="entry.265541519" id="last_name" class="form-control" placeholder="Фамилия">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="email" name="email" id="email" class="form-control" placeholder="Ваша ел.почта">
+                              <input type="email" name="entry.960845985" id="email" class="form-control" placeholder="Ваша ел.почта">
                            </div>
                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="phone" id="phone" class="form-control" placeholder="Ваш контактный номер">
+                              <input type="text" name="entry.2026776157" id="phone" class="form-control" placeholder="Ваш контактный номер">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <label class="sr-only">Select Department</label>
-                              <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
-                                 <option value="12">Выбрать услугу</option>
+                              <select name="entry.80999402" id="select_service" class="selectpicker form-control" data-style="btn-white">
+                                 <option value="0">Выбрать услугу</option>
                                  <option value="1">Ремонт окон и дверей</option>
                                  <option value="2">Установка москитных сеток</option>
                                  <option value="3">Замена стеклопакетов</option>
@@ -714,10 +718,10 @@
                               </select>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Укажите больше информации по Вашему вопросу при необходимости..."></textarea>
+                              <textarea class="form-control" name="entry.1604181130" id="comments" rows="6" placeholder="Укажите больше информации по Вашему вопросу при необходимости..."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Отправить</button>
+                              <button type="submit" value="Send" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Отправить</button>
                            </div>
                         </fieldset>
                      </form>
