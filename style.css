@@ -1513,7 +1513,7 @@ select.mobile-device {
     border-top: 0;
     border-bottom: 2px solid #ebebeb;
     box-sizing: border-box;
-    color: #666;
+    color: #667;
     font-size: 16px;
     outline: 0 none;
     padding: 10px 0px;
@@ -1524,7 +1524,7 @@ select.mobile-device {
     border-radius: 0;
 }
 .contact_form textarea {
-    color: #666;
+    color: #667;
     padding: 0 0px !important;
     height: 90px !important;
     border-radius: 0;
@@ -1671,7 +1671,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #667;
     padding: 0;
 }
 /* Footer right */
